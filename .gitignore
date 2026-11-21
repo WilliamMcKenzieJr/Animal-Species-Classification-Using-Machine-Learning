@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# Image dataset: kept out of the repo because it is large, and the photo
+# licences need credit for every photo (some may not allow re-sharing at all).
+# The credits for the downloaded photos are in credits/ instead.
+train/
+validate/
+raw_downloads/
+*.jpg
+*.jpeg
+*.jfif
+*.png
+
+# Model checkpoints: ignore all except the final trained model,
+# which is included so people can run predict.py without training (~5 MB)
+*.pt
+!animal_model.pt
+
+# training_log.csv is included (it shows the training curve)
+
+# Editor and OS clutter
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

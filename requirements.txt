@@ -1,0 +1,7 @@
+# Install with: python -m pip install -r requirements.txt
+# Tested with torch 2.15, torchvision 0.29, pillow 13.0, numpy 2.5 (CPU)
+torch>=2.0
+torchvision>=0.15
+pillow>=10.0
+numpy>=1.24
+matplotlib>=3.7
